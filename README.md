@@ -1,6 +1,10 @@
 # AzureInfo
 
-Simple library to get current gcp data like subscription_id, tenant_id, group, and location.
+[![Gem Version](https://badge.fury.io/rb/azure_info.svg)](https://badge.fury.io/rb/azure_info)
+
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+
+Simple library to get current Azure info like subscription_id, tenant_id, group, and location.
 
 ## Installation
 
