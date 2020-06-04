@@ -40,7 +40,7 @@ This tool calls out to the az CLI. So the az CLI is required.
     az login --username EMAIL_ADDRESS -t TENANT_ID
     az account set --subscription SUBSCRIPTION_ID
 
-    az configure --defaults location=useast group=RESOURCE_GROUP
+    az configure --defaults location=eastus group=RESOURCE_GROUP
 
 ## Contributing
 

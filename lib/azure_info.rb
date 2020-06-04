@@ -13,7 +13,7 @@ module AzureInfo
   alias_method :group_id, :group
 
   def location
-    configure.get("location") || "useast"
+    configure.get("location") || "eastus"
   end
 
   def subscription_id
