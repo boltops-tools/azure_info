@@ -8,21 +8,21 @@ module AzureInfo
   class Error < StandardError; end
 
   def group
-    configure.get("group")
+    ENV['ARM_GROUP'] || configure.get("group")
   end
   alias_method :group_id, :group
 
   def location
-    configure.get("location") || "eastus"
+    ENV['ARM_LOCATION'] || configure.get("location") || "eastus"
   end
 
   def subscription_id
-    account.get("id")
+    ENV['ARM_SUBSCRIPTION_ID'] || account.get("id")
   end
   alias_method :subscription, :subscription_id
 
   def tenant_id
-    account.get("tenantId")
+    ENV['ARM_TENANT_ID'] || account.get("tenantId")
   end
   alias_method :tenant, :tenant_id
 
