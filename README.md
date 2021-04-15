@@ -53,6 +53,10 @@ The config file used by the `az` command looks something like this:
     [defaults]
     location = eastus
 
+This command is also useful:
+
+    az account show
+
 ## Setting the Defaults with az cli
 
     az login --username EMAIL_ADDRESS -t TENANT_ID
