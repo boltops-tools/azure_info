@@ -27,10 +27,12 @@ module AzureInfo
   alias_method :tenant, :tenant_id
 
 private
+  # info: group (resource group), location
   def configure
     @configure ||= Configure.new
   end
 
+  # info: id (subscription id), name (subscription name), tenantId
   def account
     @account ||= Account.new
   end
