@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 This project *loosely tries* to adhere to [Semantic Versioning](http://semver.org/), even before v1.0.
 
+## [0.1.5] - 2021-12-27
+- [#5](https://github.com/boltops-tools/azure_info/pull/5) improve error message when az cli not installed
+
 ## [0.1.4] - 2021-12-27
 - [#4](https://github.com/boltops-tools/azure_info/pull/4) improve error message when az cli not installed
 
