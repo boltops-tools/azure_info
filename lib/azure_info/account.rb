@@ -1,5 +1,5 @@
 module AzureInfo
-  class Account < Base
+  class Account
     def get(name)
       az_account_show[name]
     end
